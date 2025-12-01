@@ -1,0 +1,184 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<!-- HeroSection -->
+<div class="w-full @container">
+    <div class="px-4 sm:px-6 py-8">
+        <div class="flex min-h-[480px] w-full max-w-7xl mx-auto flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 rounded-xl items-center justify-center p-4 text-center"
+            data-alt="A stunning view of mountains meeting the sea at sunset"
+            style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7sDI-SsbkEG8h5wWUq7xM6bP-62yPOH8JIMoYxMRT0lEiEtEO6AZoYTC08f3VvIocBAqp76WuOchowoVrw5-1MSmETHJAlo5uQMoLUlEB9qr9zSEWXieF6j_ekPc-NNDh5Wb7NceRq37_ZQkHuAwgnptLK2FWiQMxHGIU-ZOhUFeU7L01ztKa1F4MCZCcM8_GgsKN2e5k7w3N99hxtoDHvyabZP1ZLPCC0exTq-nK38PdOe8RZnrRSSosVb8MsQvqbqRPCSsOgB8");'>
+            <div class="flex flex-col gap-4">
+                <h1
+                    class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                    Find Your Next Adventure</h1>
+                <h2
+                    class="text-slate-100 text-base font-normal leading-normal @[480px]:text-lg @[480px]:font-normal @[480px]:leading-normal max-w-xl">
+                    Explore breathtaking destinations curated by our travel experts. Your next unforgettable journey
+                    starts
+                    here.</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="w-full max-w-7xl mx-auto px-4 sm:px-6 py-8">
+    <!-- Chips -->
+    <div class="flex flex-wrap gap-3 p-3">
+        <button
+            class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-slate-100 dark:bg-slate-800 px-4">
+            <p class="text-sm font-medium leading-normal">Region</p>
+            <span class="material-symbols-outlined text-slate-500 dark:text-slate-400"
+                style="font-size: 20px;">expand_more</span>
+        </button>
+        <button
+            class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-slate-100 dark:bg-slate-800 px-4">
+            <p class="text-sm font-medium leading-normal">Travel Style</p>
+            <span class="material-symbols-outlined text-slate-500 dark:text-slate-400"
+                style="font-size: 20px;">expand_more</span>
+        </button>
+        <button
+            class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-slate-100 dark:bg-slate-800 px-4">
+            <p class="text-sm font-medium leading-normal">Sort by Popularity</p>
+            <span class="material-symbols-outlined text-slate-500 dark:text-slate-400"
+                style="font-size: 20px;">expand_more</span>
+        </button>
+    </div>
+    <!-- ImageGrid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-4">
+        <div class="flex flex-col gap-3 group">
+            <div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl overflow-hidden">
+                <img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    data-alt="The Eiffel Tower in Paris on a cloudy day"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiSoFQqmQp69n2_ijK7teu_ST0GGZDH6z_QB7XL8xW3-RfnQ0lFzRTtg8pUTGTo_UtWPC71m5PKEkrEXrXStaLDcEbN7gs7klMvG-p5CrtxS3OYd-Pw_TIqw901AhimDj6syEEtnQ-hDzdkjur4sAAyc4M40Wal_l6P64kv_zif7eIP4QTVNoYUmyjrUsu0GAIYKKPKZ9T8EOr_KA-g5waG4wixbCxDE8JCySRf9o5oXjieUAS94LXgTuXfHWju1EVaiNvrRoTwfg" />
+            </div>
+            <div class="flex flex-col">
+                <p class="text-base font-bold leading-normal text-slate-900 dark:text-white">Paris, France</p>
+                <p class="text-sm font-normal leading-normal text-slate-600 dark:text-slate-400">The city of love, art,
+                    and iconic landmarks.</p>
+                <a class="text-sm font-bold leading-normal text-primary mt-1 group-hover:underline" href="#">Learn
+                    More</a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-3 group">
+            <div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl overflow-hidden">
+                <img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    data-alt="A traditional Japanese street in Kyoto at night with glowing lanterns"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBi5jye3W5vnHHNlHxRVaTOvCCtVQQqE5mUKwWjjrxmTzcpN-CF7Fw4_NRqiS18qDUu9qI1b3biuEiQVe02nsQRc8RtTB_QQZn-YvVnoBprE97Mb3SzotEVqU3wedBOZPKSm-1ek4yUG6idfxHOSBU1_wfX7sY6kftolTBCzZeqh4nIrJz_R1vlFNgTUtCrrDNvDbHf9iN13GVWbHXKxyDiF1Mo3s_UjdKtqckSMjdhEztLknuemP76821gopQ5qNSL70h1PGcKNgA" />
+            </div>
+            <div>
+                <p class="text-base font-bold leading-normal text-slate-900 dark:text-white">Kyoto, Japan</p>
+                <p class="text-sm font-normal leading-normal text-slate-600 dark:text-slate-400">Where ancient tradition
+                    meets modern marvels.</p>
+                <a class="text-sm font-bold leading-normal text-primary mt-1 group-hover:underline" href="#">Learn
+                    More</a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-3 group">
+            <div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl overflow-hidden">
+                <img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    data-alt="Whitewashed buildings with blue domes in Santorini overlooking the sea"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGqDz1H6dxXrAq8-tr-AwSWu4LTLyR1D5hCTyUvBNk6ar3lXsoWxsaeu4n1x6jzoN2vEUgo5H8BGAmhJrh_CrkuLiUowzlUgc1rcbvwwwPIU1D5rhiaUdGQOPS9MowssBoxd8U463eiVjfxHAOmHdSsYZW8ud-dZtNc0xF7stvOF8TjCp0QmTOH5pPhc8uFJbwaZarWh3w4a0jO8GB8cppYGog8R7YQJ9TCnXBkQkuXcPZH2xGIwfiGDG0WPOVkvB90UQwa07WhMM" />
+            </div>
+            <div>
+                <p class="text-base font-bold leading-normal text-slate-900 dark:text-white">Santorini, Greece</p>
+                <p class="text-sm font-normal leading-normal text-slate-600 dark:text-slate-400">Whitewashed villages
+                    clinging to seaside cliffs.</p>
+                <a class="text-sm font-bold leading-normal text-primary mt-1 group-hover:underline" href="#">Learn
+                    More</a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-3 group">
+            <div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl overflow-hidden">
+                <img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    data-alt="Overwater bungalows in a turquoise lagoon in Bora Bora"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjqKmRyNYV0-OlkWIylmMFRSBG5dBcdp8gqYHdD-p1OHB2RlKKDr83Gv1BbCWvVgAQrlm-u55O7fO1wU_qDyYwkbOiVLRDUYWGVxRDCN4Ph2yG0QFrOlPhZm1vWQuxXwxNCESNnVCSAngdE3GRrhTe51ZIHOFD-fiy2yNaG0KpJmMgUVYk1WmMvj2W_fw7XNm2zPdbp47sIIHlxOuFUTFfqDPI_6kU0tRUxu_SNKISAT3nEpwU8XYq2gKwV_jiCWGszx3j0Lw02UI" />
+            </div>
+            <div>
+                <p class="text-base font-bold leading-normal text-slate-900 dark:text-white">Bora Bora, French Polynesia
+                </p>
+                <p class="text-sm font-normal leading-normal text-slate-600 dark:text-slate-400">Pristine turquoise
+                    lagoons and overwater bungalows.</p>
+                <a class="text-sm font-bold leading-normal text-primary mt-1 group-hover:underline" href="#">Learn
+                    More</a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-3 group">
+            <div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl overflow-hidden">
+                <img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    data-alt="The ancient Colosseum in Rome, Italy, under a blue sky"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwODHCuJ6VdZ8AvynjxCndZurIEGojMl8ls6dkfDJNmoPVh3W76LYwq1oLmG-o0oztoYWBE-jiA61Rn3abBiYkgShoBNSJQjgwp6FO0F2aoKRe4529w8lGrQrkaP4G37esGLaOvfWBuPclygXbRYo-iFtfWqg-jFWwAON4FjrSnShqHfCqZs1-9HyhqpjoL--rjdhY1wxwX2C5hJZWgR_vp2koj16uS-G3JD34wHszQXPQL1OIAK-M3XCsWkuD2agGSFyJ5nt2waE" />
+            </div>
+            <div>
+                <p class="text-base font-bold leading-normal text-slate-900 dark:text-white">Rome, Italy</p>
+                <p class="text-sm font-normal leading-normal text-slate-600 dark:text-slate-400">A historic city with
+                    timeless art and culture.</p>
+                <a class="text-sm font-bold leading-normal text-primary mt-1 group-hover:underline" href="#">Learn
+                    More</a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-3 group">
+            <div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl overflow-hidden">
+                <img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    data-alt="Lush green terraced rice paddies in Bali"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz2IGfCaH-2odiIVSoK6HnUhM-_KZr_OF4UzvX34g0mLE07BymtmXJq_QMwhAOXoxqCfFaJ4_JNZFw7c5BISDz3fgjW6TCOtjYvpd8ObbvUSqKfjphz8nTH4KMR2VjToJ5UipHmUAiume4Z1hF-bce71OryibasJSVOpx96VXeOLh6nJCcd11n3-DssLmj80o1slYndsmvnXR78GqdhHmk2IV4O49GtCcYTI4CASnW1g97DRXr6TED7oCRwHTuOhU-i68xdicbHQo" />
+            </div>
+            <div>
+                <p class="text-base font-bold leading-normal text-slate-900 dark:text-white">Bali, Indonesia</p>
+                <p class="text-sm font-normal leading-normal text-slate-600 dark:text-slate-400">An island paradise with
+                    lush forests and volcanos.</p>
+                <a class="text-sm font-bold leading-normal text-primary mt-1 group-hover:underline" href="#">Learn
+                    More</a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-3 group">
+            <div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl overflow-hidden">
+                <img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    data-alt="The Great Pyramids of Giza in Cairo, Egypt"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZR2Rf70vD9ooJI0SIev2iH6VSiymfFFkB7PJSdeT-KADse41c5dzrQimqvCYo2ofzy4dp9kpvgMn7TZmG-TSgw34meXUxHml7G9r0yQHn9pQr_PN4-u6hwnYp9QwMLdZOler5YfxYoRueH6jk4FvC3Kv0hvqHVo1DxxN6vly34ZJ_GMp7gknNRKXE7ST-nK8uH8oUb3Rc-gNfmX4vKRY54Lpn9vraFnZ_z9sUekuzKIXe3T1p5J4y8b_9mO7XMgLKPW8JoK_HHak" />
+            </div>
+            <div>
+                <p class="text-base font-bold leading-normal text-slate-900 dark:text-white">Cairo, Egypt</p>
+                <p class="text-sm font-normal leading-normal text-slate-600 dark:text-slate-400">Discover ancient
+                    wonders and bustling markets.</p>
+                <a class="text-sm font-bold leading-normal text-primary mt-1 group-hover:underline" href="#">Learn
+                    More</a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-3 group">
+            <div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl overflow-hidden">
+                <img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    data-alt="The ancient ruins of Machu Picchu high in the Andes mountains"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe8E2rmsGpyCz2VPc6QqJmAqv3Z1coY0sVsWWTVaDQJ03rLDRs5TtUbXOND_awpOjFfvqsabAQU7YZP6RFhZSutGQW0MXGlyPJjbB2WaJy1fbbQISsj1B6rqtgdQxWEiiJTdWOtxDi8O1Yvc4WiQ8NGIVSJeIiwBaifXM70ibYEqItXeJz4HPA_UYBzN1bqvVE1MGlhyfOtDx10P6ax-iaBv8V6A47FVRz5w3kzMM_zIwzyjMvp_duTfFMLPolnNk2bZsXIm0iXxU" />
+            </div>
+            <div>
+                <p class="text-base font-bold leading-normal text-slate-900 dark:text-white">Machu Picchu, Peru</p>
+                <p class="text-sm font-normal leading-normal text-slate-600 dark:text-slate-400">The lost city of the
+                    Incas, high in the Andes.</p>
+                <a class="text-sm font-bold leading-normal text-primary mt-1 group-hover:underline" href="#">Learn
+                    More</a>
+            </div>
+        </div>
+    </div>
+    <!-- Pagination -->
+    <div class="flex items-center justify-center p-4 mt-8">
+        <a class="flex size-10 items-center justify-center rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800"
+            href="#">
+            <span class="material-symbols-outlined text-slate-600 dark:text-slate-400"
+                style="font-size: 20px;">chevron_left</span>
+        </a>
+        <a class="text-sm font-bold leading-normal flex size-10 items-center justify-center text-white rounded-lg bg-primary"
+            href="#">1</a>
+        <a class="text-sm font-medium leading-normal flex size-10 items-center justify-center rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800"
+            href="#">2</a>
+        <a class="text-sm font-medium leading-normal flex size-10 items-center justify-center rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800"
+            href="#">3</a>
+        <span class="text-sm font-medium leading-normal flex size-10 items-center justify-center">...</span>
+        <a class="text-sm font-medium leading-normal flex size-10 items-center justify-center rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800"
+            href="#">10</a>
+        <a class="flex size-10 items-center justify-center rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800"
+            href="#">
+            <span class="material-symbols-outlined text-slate-600 dark:text-slate-400"
+                style="font-size: 20px;">chevron_right</span>
+        </a>
+    </div>
+</div>
+{% endblock %}

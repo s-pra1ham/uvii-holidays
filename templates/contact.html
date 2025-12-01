@@ -1,0 +1,123 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="px-4 md:px-10 lg:px-20 py-10 lg:py-20 w-full">
+    <div class="layout-content-container flex flex-col max-w-6xl mx-auto">
+        <div class="flex flex-col items-center text-center mb-12">
+            <p class="text-[#111518] dark:text-white text-4xl lg:text-5xl font-black leading-tight tracking-[-0.033em]">
+                We'd Love to Hear From You</p>
+            <p class="text-[#617989] dark:text-white/60 text-base lg:text-lg font-normal leading-normal mt-3 max-w-2xl">
+                Reach out for inquiries, bookings, or support. We're here to help plan your next
+                adventure.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12">
+            <div
+                class="lg:col-span-3 bg-white dark:bg-background-dark/80 p-6 md:p-8 rounded-xl border border-gray-200 dark:border-white/10">
+                <h2 class="text-[#111518] dark:text-white text-2xl font-bold leading-tight tracking-[-0.015em] mb-6">
+                    Send us a Message</h2>
+                <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="md:col-span-1">
+                        <label class="flex flex-col">
+                            <p class="text-[#111518] dark:text-white/90 text-sm font-medium leading-normal pb-2">
+                                Full Name</p>
+                            <input
+                                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111518] dark:text-white dark:bg-background-dark/50 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-[#dbe1e6] dark:border-white/20 bg-background-light focus:border-primary h-12 placeholder:text-[#617989] px-4 text-base font-normal leading-normal"
+                                placeholder="Enter your full name" type="text" />
+                        </label>
+                    </div>
+                    <div class="md:col-span-1">
+                        <label class="flex flex-col">
+                            <p class="text-[#111518] dark:text-white/90 text-sm font-medium leading-normal pb-2">
+                                Email Address</p>
+                            <input
+                                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111518] dark:text-white dark:bg-background-dark/50 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-[#dbe1e6] dark:border-white/20 bg-background-light focus:border-primary h-12 placeholder:text-[#617989] px-4 text-base font-normal leading-normal"
+                                placeholder="Enter your email address" type="email" />
+                        </label>
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="flex flex-col">
+                            <p class="text-[#111518] dark:text-white/90 text-sm font-medium leading-normal pb-2">
+                                Inquiry Type</p>
+                            <select
+                                class="form-select flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111518] dark:text-white dark:bg-background-dark/50 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-[#dbe1e6] dark:border-white/20 bg-background-light focus:border-primary h-12 px-4 text-base font-normal leading-normal">
+                                <option>Booking Inquiry</option>
+                                <option>General Question</option>
+                                <option>Feedback</option>
+                                <option>Partnership</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="flex flex-col">
+                            <p class="text-[#111518] dark:text-white/90 text-sm font-medium leading-normal pb-2">
+                                Your Message</p>
+                            <textarea
+                                class="form-textarea flex w-full min-w-0 flex-1 resize-y overflow-hidden rounded-lg text-[#111518] dark:text-white dark:bg-background-dark/50 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-[#dbe1e6] dark:border-white/20 bg-background-light focus:border-primary h-32 placeholder:text-[#617989] p-4 text-base font-normal leading-normal"
+                                placeholder="Type your message here..."></textarea>
+                        </label>
+                    </div>
+                    <div class="md:col-span-2">
+                        <button
+                            class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                            <span class="truncate">Send Message</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="lg:col-span-2">
+                <h2 class="text-[#111518] dark:text-white text-2xl font-bold leading-tight tracking-[-0.015em] mb-6">
+                    Other Ways to Reach Us</h2>
+                <div class="flex flex-col gap-6">
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="flex-shrink-0 flex items-center justify-center size-12 rounded-full bg-primary/20 text-primary">
+                            <span class="material-symbols-outlined text-2xl">call</span>
+                        </div>
+                        <div>
+                            <h3 class="text-[#111518] dark:text-white font-bold">Phone</h3>
+                            <p class="text-[#617989] dark:text-white/60">+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="flex-shrink-0 flex items-center justify-center size-12 rounded-full bg-primary/20 text-primary">
+                            <span class="material-symbols-outlined text-2xl">email</span>
+                        </div>
+                        <div>
+                            <h3 class="text-[#111518] dark:text-white font-bold">Email</h3>
+                            <p class="text-[#617989] dark:text-white/60">hello@uvii-holidays.com</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="flex-shrink-0 flex items-center justify-center size-12 rounded-full bg-primary/20 text-primary">
+                            <span class="material-symbols-outlined text-2xl">location_on</span>
+                        </div>
+                        <div>
+                            <h3 class="text-[#111518] dark:text-white font-bold">Address</h3>
+                            <p class="text-[#617989] dark:text-white/60">123 Adventure Lane, Travel
+                                City, 90210</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div
+                            class="flex-shrink-0 flex items-center justify-center size-12 rounded-full bg-primary/20 text-primary">
+                            <span class="material-symbols-outlined text-2xl">schedule</span>
+                        </div>
+                        <div>
+                            <h3 class="text-[#111518] dark:text-white font-bold">Operating Hours</h3>
+                            <p class="text-[#617989] dark:text-white/60">Mon - Fri: 9:00 AM - 6:00 PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 rounded-xl overflow-hidden aspect-video">
+                    <img class="w-full h-full object-cover"
+                        data-alt="A birds eye view of a map showing streets and buildings." data-location="Travel City"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVxYPUXmSHOlxsK8TxZoqTkvBNxYYaLzcnFQGFGa9WktOzC0A9gCBUFUYhYwyd0to4AFZG-rJI5S1xPKLWpiH3rHBET-zpYnAVVdc4B3zaZrLxnmJ0JubyKiGj2QxDiqotE4w_AQkWmHRF5T6JuKbhKyJDgk8qg8e68Hx5xtew3uaDaDplVUUWPcoDVXkm8vKKSzcZzslLUFAOels4SKgNhmYQSzQxeJFBgBAZRrO8k2z6dN_oV3CC2ZXPI1y86HUcB48LV-U6Juo" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,221 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 w-full max-w-7xl">
+    <div class="@container">
+        <div class="@[480px]:p-4">
+            <div class="relative flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4 text-center overflow-hidden"
+                data-alt="A panoramic view of a beautiful tropical beach at sunset"
+                style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuA0N4nUYvEoC-zJeUBcbclQmPuepeiQm263lQHU1VjkauwVo37ScIxNZ_9Fhog2_yKR5890DCqK5QTzk_SX5EbpLPhwXr8aEzmmImxarD1PUcjT6FBTWbh-LnYesKXlln4jeVKkUV4HFI5Z4EOBguvQcEX86m-bu88lOqJjbMtySoTy2S4G6iBykxXZE8AFSGJ_nUgwyt3iiYoXztYLO-kvly3MkHBBUOaikeuVy2lL_mEuBlLBJrDVSCvdNiuAtdxLsbNqt4PaIyg");'>
+                <div class="flex flex-col gap-2">
+                    <h1
+                        class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                        Unforgettable Journeys, Unbeatable Prices</h1>
+                    <h2
+                        class="text-white/90 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal max-w-2xl mx-auto">
+                        Explore our curated travel promotions, discounted packages, and special offers to find your next
+                        adventure.</h2>
+                </div>
+                <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                    <span class="truncate">Explore All Deals</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="py-8 space-y-4">
+        <div class="flex flex-wrap items-center gap-3 p-3 overflow-x-auto bg-white dark:bg-gray-900/50 rounded-lg">
+            <div class="relative flex-grow">
+                <span
+                    class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">search</span>
+                <input
+                    class="w-full h-10 pl-10 pr-4 rounded-lg bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700 focus:ring-primary focus:border-primary"
+                    placeholder="Search by destination or hotel..." type="text" />
+            </div>
+            <button
+                class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700 px-4">
+                <p class="text-sm font-medium leading-normal">Destination</p>
+                <span class="material-symbols-outlined text-lg">expand_more</span>
+            </button>
+            <button
+                class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700 px-4">
+                <p class="text-sm font-medium leading-normal">Travel Type</p>
+                <span class="material-symbols-outlined text-lg">expand_more</span>
+            </button>
+            <button
+                class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700 px-4">
+                <p class="text-sm font-medium leading-normal">Price Range</p>
+                <span class="material-symbols-outlined text-lg">expand_more</span>
+            </button>
+            <button
+                class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-700 px-4">
+                <p class="text-sm font-medium leading-normal">Sort By</p>
+                <span class="material-symbols-outlined text-lg">expand_more</span>
+            </button>
+        </div>
+        <div class="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-6">
+            <div
+                class="flex flex-col gap-3 bg-white dark:bg-gray-900/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                <div class="relative">
+                    <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                        data-alt="Stunning white buildings with blue domes overlooking the sea in Santorini"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAsqFiRzW2Q54CoT7BOwWh_EXTlE3fNVGFO1hKLJWrOVNg-BHPzHG7W6BcKaTwrR2obSIceJEsdfaOIuVpwgpZ-kHQviNF4ofPjAw7Bl9egYmxwpxTa6e4w7yJsAbr4rCHC-gxznmUsiwXy5ibZKAIFbOjn3zZVlIc2wwJjJtmTbHEI9YYChRMaXfNyQ7MYPPyrI7Zu0fjFH6ztKH-VxcnuynBqfJeWUpCfW8Y3vPZyRrL6vh_UPBw1NA1dDjTOB7WmuPppHHUWlS0");'>
+                    </div>
+                    <div
+                        class="absolute top-3 left-3 bg-primary/80 text-white text-xs font-bold px-2 py-1 rounded-full backdrop-blur-sm">
+                        20% Off</div>
+                </div>
+                <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-lg font-bold">7 Nights in Santorini</p>
+                    <p class="text-sm font-normal text-gray-600 dark:text-gray-400 mt-1 flex-grow">Includes flights
+                        &amp; 4-star hotel in Oia.</p>
+                    <div class="mt-4 flex items-baseline gap-2">
+                        <p class="text-xl font-bold text-primary">$1,299</p>
+                        <p class="text-sm font-normal text-gray-500 line-through">$1,599</p>
+                    </div>
+                    <p class="text-xs text-gray-500">per person</p>
+                    <button
+                        class="mt-4 w-full flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                        <span class="truncate">View Deal</span>
+                    </button>
+                </div>
+            </div>
+            <div
+                class="flex flex-col gap-3 bg-white dark:bg-gray-900/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                <div class="relative">
+                    <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                        data-alt="A luxurious beach resort in Cancun with palm trees and a clear blue ocean"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBXn8M6fw513AlLS5n25IjMxukZR6sefmnMGDgzTIJR_KfkdQRJK2kCAYYiYc33Sm6OYa1uNGrJZNE-61b6ReGg9-eul7opB7GNCGuRxFziuiileu4Xz5wTggytiY6LHwwPLSvB8hRIbyVvvMGYQWcsJ8Lf9nHQTmj7JX5J-4eUPIQfDXlm7h6p0I2r3BNbRKVsL59cVP_PNbMgKsQ0oXMVnix0LksXyLHoWiWNM2Wf1tNEsATvtpKOOY_TktymOg68PrOSO28avhw");'>
+                    </div>
+                    <div
+                        class="absolute top-3 left-3 bg-red-500/80 text-white text-xs font-bold px-2 py-1 rounded-full backdrop-blur-sm">
+                        Limited Time</div>
+                </div>
+                <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-lg font-bold">All-Inclusive Cancun Resort</p>
+                    <p class="text-sm font-normal text-gray-600 dark:text-gray-400 mt-1 flex-grow">Unlimited food &amp;
+                        drinks at a 5-star resort.</p>
+                    <div class="mt-4 flex items-baseline gap-2">
+                        <p class="text-xl font-bold text-primary">$1,799</p>
+                        <p class="text-sm font-normal text-gray-500 line-through">$2,100</p>
+                    </div>
+                    <p class="text-xs text-gray-500">per person</p>
+                    <button
+                        class="mt-4 w-full flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                        <span class="truncate">Book Now</span>
+                    </button>
+                </div>
+            </div>
+            <div
+                class="flex flex-col gap-3 bg-white dark:bg-gray-900/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                    data-alt="The iconic Shibuya Crossing in Tokyo at night, bustling with people and neon lights"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD6h7qc6p5E4ihZvGt5aVtvzvgWa1TjmQZpapocOorccq9dhOtpx5AlIL8_QcK2Gr0RH77U6s5iGDoIWrEVkUQfbtEAUJr520tq40u-Uw-huBIEcjEq7UDTjvWWbfXjef-76K0JuSQRV8Q0gCLB4M-lhCs8KIEzwJgGjiphrkBic8Y_YsWzJ9HBS7i0KidBHNnvLteV7VTBj4TlFb_EmBQkwYgnVtl-m5dKZreVD7nA9vyU5CjHvOEm2yx2lFVTDP4tBekXR5qAw2k");'>
+                </div>
+                <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-lg font-bold">Tokyo City Break</p>
+                    <p class="text-sm font-normal text-gray-600 dark:text-gray-400 mt-1 flex-grow">Explore the vibrant
+                        city, includes centrally located hotel.</p>
+                    <div class="mt-4 flex items-baseline gap-2">
+                        <p class="text-xl font-bold text-primary">$1,550</p>
+                        <p class="text-sm font-normal text-gray-500 line-through">$1,800</p>
+                    </div>
+                    <p class="text-xs text-gray-500">per person</p>
+                    <button
+                        class="mt-4 w-full flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                        <span class="truncate">View Deal</span>
+                    </button>
+                </div>
+            </div>
+            <div
+                class="flex flex-col gap-3 bg-white dark:bg-gray-900/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                    data-alt="A lush green rainforest in Costa Rica with a hanging bridge"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDCK24dKi44TvF_q_0o1_Wg5ZHMpT70Y-cRNOVuQUgi4cNrIf42Mv3AY3JOLnWSX3tMmbZAtXqMyv7wnqivJbgLsgwoNaf1aDlK18NIy3TTyIMtr-jfioHReqeQlF3Eg1zCptPl1NKNSVkgrRjNVAiSiV2En17P4On-fb3UMDRC6xWKOtIqQFU1L4b7nNqXhrMK-L0nezfvJyo1CD9UuO6xa_TO65RRFV23FkHqsU4SeHiW8Q5AfyL4BYlTVw2s8TXZMc2LoS4Po_g");'>
+                </div>
+                <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-lg font-bold">Adventure in Costa Rica</p>
+                    <p class="text-sm font-normal text-gray-600 dark:text-gray-400 mt-1 flex-grow">Rainforest tours and
+                        zip-lining included.</p>
+                    <div class="mt-4 flex items-baseline gap-2">
+                        <p class="text-xl font-bold text-primary">$1,199</p>
+                        <p class="text-sm font-normal text-gray-500 line-through">$1,450</p>
+                    </div>
+                    <p class="text-xs text-gray-500">per person</p>
+                    <button
+                        class="mt-4 w-full flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                        <span class="truncate">View Deal</span>
+                    </button>
+                </div>
+            </div>
+            <div
+                class="flex flex-col gap-3 bg-white dark:bg-gray-900/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                <div class="relative">
+                    <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                        data-alt="The futuristic skyline of Dubai at night with illuminated skyscrapers"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBLsxPglWFaY9ZWpYpt66hwXRgXBDsOONM9RxnSTIgfyLE2nBQl37gsJyXaEeh1x-1wtjM6BjNyvWZrrFd6Yzfi01E6sbexacZJr2TP6CnP2BWkEUvoKaTdUomD27aqE-VB7zyhpQXGkP56pA_-xBUvrQE4TgAK46WgL1VBU6DPR2Br4ghweV-t6UGEEEjqR2tJFVXGrIOSGiahjHrXgJm1ltIXrfsvqGQ464maHiziYjy_Pdm03Px23bvDc5t9iVrgSK8xMzrRMoI");'>
+                    </div>
+                    <div
+                        class="absolute top-3 left-3 bg-yellow-500/80 text-black text-xs font-bold px-2 py-1 rounded-full backdrop-blur-sm">
+                        Luxury</div>
+                </div>
+                <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-lg font-bold">Luxury Dubai Getaway</p>
+                    <p class="text-sm font-normal text-gray-600 dark:text-gray-400 mt-1 flex-grow">5-star hotel
+                        experience and desert safari.</p>
+                    <div class="mt-4 flex items-baseline gap-2">
+                        <p class="text-xl font-bold text-primary">$2,100</p>
+                        <p class="text-sm font-normal text-gray-500 line-through">$2,500</p>
+                    </div>
+                    <p class="text-xs text-gray-500">per person</p>
+                    <button
+                        class="mt-4 w-full flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                        <span class="truncate">Book Now</span>
+                    </button>
+                </div>
+            </div>
+            <div
+                class="flex flex-col gap-3 bg-white dark:bg-gray-900/50 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                <div class="w-full bg-center bg-no-repeat aspect-video bg-cover"
+                    data-alt="A magical castle in a theme park in Orlando with fireworks in the background"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDj4v5FxxTYFLTYqIz2HRRQOqseke0LkBucgWAFCfxat4UHxfi_Ci116zJYsBKPZwvHzLkiAXm50CXrj7R8lAbWXHTMc6eEbQWc4GJ-gS_DhsmwnHUoKAuuRDGDJrPprcwEUAj8XE3vCf9CHsMK_LVye_JDp5k_PoX_GoZawAr4cyl4_qGS-Y-ga30pnThdsDpNeDbCRwK5ORKC5m3fVCVN9A4gzj4xd0yXEGhJjHmhyf9cPLIJ5ChQvgY-ek7opfvk-RC5Y2O6_40");'>
+                </div>
+                <div class="p-4 flex flex-col flex-grow">
+                    <p class="text-lg font-bold">Family Trip to Orlando</p>
+                    <p class="text-sm font-normal text-gray-600 dark:text-gray-400 mt-1 flex-grow">Theme park passes for
+                        a family of four included.</p>
+                    <div class="mt-4 flex items-baseline gap-2">
+                        <p class="text-xl font-bold text-primary">$1,699</p>
+                        <p class="text-sm font-normal text-gray-500 line-through">$1,999</p>
+                    </div>
+                    <p class="text-xs text-gray-500">per person</p>
+                    <button
+                        class="mt-4 w-full flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+                        <span class="truncate">View Deal</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex items-center justify-center p-4">
+        <a class="flex size-10 items-center justify-center rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+            href="#">
+            <span class="material-symbols-outlined text-lg">chevron_left</span>
+        </a>
+        <a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-white rounded-full bg-primary"
+            href="#">1</a>
+        <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+            href="#">2</a>
+        <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+            href="#">3</a>
+        <span
+            class="text-sm font-normal leading-normal flex size-10 items-center justify-center rounded-full">...</span>
+        <a class="text-sm font-normal leading-normal flex size-10 items-center justify-center rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+            href="#">10</a>
+        <a class="flex size-10 items-center justify-center rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
+            href="#">
+            <span class="material-symbols-outlined text-lg">chevron_right</span>
+        </a>
+    </div>
+</div>
+{% endblock %}
