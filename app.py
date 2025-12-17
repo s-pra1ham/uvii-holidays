@@ -22,6 +22,10 @@ def about():
 def contact():
     return render_template('contact.html')
 
+@app.route('/visa-assistance')
+def visa_assistance():
+    return render_template('visa-and-assistance.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
